@@ -239,7 +239,12 @@ body.lock {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 27.5px;
+}
+.header__nav ul li {
+  margin-right: 27.5px;
+}
+.header__nav ul li:last-child {
+  margin-right: 0;
 }
 .header__nav ul li a {
   font-size: 16px;
@@ -482,7 +487,9 @@ body.lock {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 23px;
+}
+.social__items a {
+  margin-right: 23px;
 }
 .social__items a:hover div img {
   transition: all 0.3s linear;
@@ -798,6 +805,7 @@ body.lock {
   display: flex;
   justify-content: end;
   align-items: center;
+  width: 100%;
 }
 .rating__info img {
   margin-right: 5px;
@@ -871,7 +879,12 @@ body.lock {
   margin-top: 50px;
   display: flex;
   align-items: center;
-  gap: 20px;
+}
+.download__info__links a {
+  margin-right: 20px;
+}
+.download__info__links a:last-of-type {
+  margin-right: 0;
 }
 .download__info h3 {
   max-width: 340px;
@@ -1143,13 +1156,13 @@ body.lock {
   padding: 24px 0;
 }
 .footer__columns {
-  padding: 100px 0 50px 0;
   display: flex;
   flex-wrap: wrap;
 }
 @media (min-width: 1200px) {
   .footer__columns {
     justify-content: space-between;
+    padding: 100px 0 50px 0;
   }
 }
 .footer__column {
