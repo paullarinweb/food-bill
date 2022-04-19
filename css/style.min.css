@@ -651,7 +651,7 @@ body.lock {
   width: 100%;
   flex-wrap: wrap;
 }
-@media (min-width: 1800px) {
+@media (min-width: 1200px) {
   .services__items {
     flex-wrap: nowrap;
   }
