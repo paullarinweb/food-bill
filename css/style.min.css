@@ -802,8 +802,9 @@ body.lock {
 }
 
 .rating__info {
-  display: flex;
-  justify-content: end;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
 }
