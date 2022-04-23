@@ -4,6 +4,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <link
+    rel="shortcut icon"
+    href="img/favicon/favicon.ico"
+    type="image/x-icon"
+  />
+  <link rel="stylesheet" href="css/loader.css" />
+  <link rel="stylesheet" href="sal/sal.css"/>
+  
   <meta
     name="description"
     content="You Can Eat
@@ -11,7 +21,7 @@
   Food You Like"
   />
   <meta name="keywords" content="food, online-shop" />
-  <meta name="image" content="./img/intro-food.png" />
+  <meta name="image" content="img/intro-food.png" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Food Bill" />
   <meta
@@ -33,10 +43,13 @@
 </head>
 
   <body>
-    <header class="header">
+    <header class="header"
+                data-sal-duration="2000"
+        data-sal="fade"
+        data-sal-easing="ease-out-bounce">
   <div class="header__wrapper _container">
     <div class="header__logo">
-      <img src="./img/logo.png" alt="Food Bill" />
+      <img src="img/logo.png" alt="Food Bill" />
     </div>
     <div class="header__nav">
       <ul>
@@ -70,10 +83,19 @@
   </nav>
 </header>
 
+    <div class="loader">
+      <p>loading in process...</p>
+      <div class="dots-bars-6"></div>
+      <span>please, dont leave before this page load!</span>
+    </div>
     <main>
       <section id="home" class="intro">
         <div class="intro__wrapper _container">
-          <div class="intro__item">
+          <div class="intro__item"
+                    data-sal-duration="2500"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce"
+               >
             <div class="intro__info">
               <h1>You Can Eat Any Tasty Food You Like.</h1>
               <p>
@@ -118,21 +140,30 @@
           <div class="intro__item">
             <div class="intro__main">
               <div class="intro__main__items">
-                <div class="intro__main__item item__main">
+                <div class="intro__main__item item__main"
+                         data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
                   <div class="item__main__img bg-icons-sm">
                     <img src="img/icons/clock.png" alt="clock" />
                   </div>
                   <h2>Today 10:00am - 09:00pm</h2>
                   <span>Working Time</span>
                 </div>
-                <div class="intro__main__item item__main">
+                <div class="intro__main__item item__main"
+                         data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
                   <div class="item__main__img bg-icons-sm">
                     <img src="img/icons/location.png" alt="location" />
                   </div>
                   <h2>Washington, D.C., DC, USA</h2>
                   <span>Our Location</span>
                 </div>
-                <div class="intro__main__item item__main">
+                <div class="intro__main__item item__main"
+                         data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
                   <div class="item__main__img bg-icons-sm">
                     <img src="img/icons/phone.png" alt="phone" />
                   </div>
@@ -146,7 +177,11 @@
       </section>
       <section class="about" id="how-to-work">
         <div class="about__wrapper _container">
-          <div class="about__item">
+          <div class="about__item"
+               data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce"
+               >
             <article>
               <span class="about__span name-span">How to work</span>
               <h2>Food Is An Important Part Of A Balanced Diet.</h2>
@@ -173,12 +208,19 @@
       </section>
       <section class="services" id="services">
         <div class="services__wrapper">
-          <div class="services__header">
+          <div class="services__header"
+                   data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce"
+               >
             <span class="services__name name-span">Services</span>
             <h2>Why Choose Our Favorite Food</h2>
           </div>
           <div class="services__items">
-            <div class="services__item services__card item__card">
+            <div class="services__item services__card item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <div class="services__card__img bg-icons-extra">
                 <img
                   src="img/icons/service/icon-1.png"
@@ -191,7 +233,10 @@
                 denouncing pleasure and praising pain was born.
               </p>
             </div>
-            <div class="services__item services__card item__card">
+            <div class="services__item services__card item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <div class="services__card__img bg-icons-extra">
                 <img src="img/icons/service/icon-2.png" alt="Healthy Food" />
               </div>
@@ -201,7 +246,10 @@
                 denouncing pleasure and praising pain was born.
               </p>
             </div>
-            <div class="services__item services__card item__card">
+            <div class="services__item services__card item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <div class="services__card__img bg-icons-extra">
                 <img src="img/icons/service/icon-3.png" alt="Fast Delivery" />
               </div>
@@ -216,18 +264,26 @@
       </section>
       <section class="products" id="product">
         <div class="products__wrapper">
-          <div class="products__header services__header">
+          <div class="products__header services__header"
+                   data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
             <span class="products__name name-span">Products</span>
             <h2>Most Popular Items</h2>
           </div>
           <div class="products__items">
-            <div class="products__item item__card product">
+            <div class="products__item item__card product"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/products/item-1.jpg" alt="Gyro Sandwhich" />
               <div class="products__item__info">
                 <h3>Gyro Sandwhich</h3>
                 <div class="product__rating rating__info">
+                  <div class="rating__info__info">
                   <img src="img/icons/star.png" alt="star" />
                   <span>4.7</span>
+                </div>
                 </div>
                 <div class="product__order">
                   <button class="product__btn btn-orange">Add To Card</button>
@@ -235,13 +291,18 @@
                 </div>
               </div>
             </div>
-            <div class="products__item product item__card">
+            <div class="products__item product item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/products/item-2.jpg" alt="Enchilada" />
               <div class="products__item__info">
                 <h3>Enchilada</h3>
                 <div class="product__rating rating__info">
+                  <div class="rating__info__info">
                   <img src="img/icons/star.png" alt="star" />
                   <span>4.7</span>
+                </div>
                 </div>
                 <div class="product__order">
                   <button class="product__btn btn-orange">Add To Card</button>
@@ -249,13 +310,18 @@
                 </div>
               </div>
             </div>
-            <div class="products__item product item__card">
+            <div class="products__item product item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/products/item-3.jpg" alt="Green Beans" />
               <div class="products__item__info">
                 <h3>Green Beans</h3>
                 <div class="product__rating rating__info">
-                  <img src="img/icons/star.png" alt="star" />
-                  <span>4.9</span>
+                  <div class="rating__info__info">
+                    <img src="img/icons/star.png" alt="star" />
+                    <span>4.9</span>
+                  </div>
                 </div>
                 <div class="product__order">
                   <button class="product__btn btn-orange">Add To Card</button>
@@ -263,13 +329,18 @@
                 </div>
               </div>
             </div>
-            <div class="products__item product item__card">
+            <div class="products__item product item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/products/item-4.jpg" alt="Pizza" />
               <div class="products__item__info">
                 <h3>Pizza</h3>
                 <div class="product__rating rating__info">
+                  <div class="rating__info__info">
                   <img src="img/icons/star.png" alt="star" />
                   <span>4.9</span>
+                </div>
                 </div>
                 <div class="product__order">
                   <button class="product__btn btn-orange">Add To Card</button>
@@ -277,13 +348,18 @@
                 </div>
               </div>
             </div>
-            <div class="products__item product item__card">
+            <div class="products__item product item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/products/item-5.jpg" alt="Chicken Pot Pie" />
               <div class="products__item__info">
                 <h3>Chicken Pot Pie</h3>
                 <div class="product__rating rating__info">
+                  <div class="rating__info__info">
                   <img src="img/icons/star.png" alt="star" />
                   <span>4.7</span>
+                </div>
                 </div>
                 <div class="product__order">
                   <button class="product__btn btn-orange">Add To Card</button>
@@ -291,13 +367,18 @@
                 </div>
               </div>
             </div>
-            <div class="products__item product item__card">
+            <div class="products__item product item__card"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/products/item-6.jpg" alt="Green Salad" />
               <div class="products__item__info">
                 <h3>Green Salad</h3>
                 <div class="product__rating rating__info">
+                  <div class="rating__info__info">
                   <img src="img/icons/star.png" alt="star" />
                   <span>4.9</span>
+                </div>
                 </div>
                 <div class="product__order">
                   <button class="product__btn btn-orange">Add To Card</button>
@@ -306,7 +387,10 @@
               </div>
             </div>
           </div>
-          <div class="products__more">
+          <div class="products__more"
+                   data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
             <div class="products__show about__btn btns-arrow">
               <a href="about__link"
                 ><p>See More Product</p>
@@ -321,7 +405,10 @@
       <section class="download">
         <div class="download__wrapper">
           <div class="download__items">
-            <div class="download__item">
+            <div class="download__item"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <div class="download__info">
                 <h3>Simple Way To Order Your Foods</h3>
                 <div class="download__info__links">
@@ -340,7 +427,10 @@
                 </div>
               </div>
             </div>
-            <div class="download__item">
+            <div class="download__item"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/screens.png" alt="" />
             </div>
           </div>
@@ -348,12 +438,18 @@
       </section>
       <section class="testimonials">
         <div class="testimonials__wrapper">
-          <div class="testimonials__header services__header">
+          <div class="testimonials__header services__header"
+                   data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
             <span class="testimonials__name name-span">Testimonials</span>
             <h2>Our Happy Client Says</h2>
           </div>
           <div class="testimonials__body">
-            <div class="testimonials__left">
+            <div class="testimonials__left"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <div class="testimonials__slider">
                 <!-- Additional required wrapper -->
                 <div class="testimonials__slider-wrapper swiper-wrapper">
@@ -439,7 +535,10 @@
                 </div>
               </div>
             </div>
-            <div class="testimonials__right">
+            <div class="testimonials__right"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <div class="testimonials__img">
                 <img src="img/testimonials-food.png" alt="testimonials food" />
               </div>
@@ -450,10 +549,16 @@
       <section class="subcribe" id="contact">
         <div class="subcribe__wrapper download__wrapper">
           <div class="subcribe__items">
-            <div class="subcribe__img">
+            <div class="subcribe__img" 
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <img src="img/subcribe-hamburger.png" alt="hamburger" />
             </div>
-            <div class="subcribe__info download__info">
+            <div class="subcribe__info download__info"
+                     data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
               <h3>Subcribe To Our Newsletter</h2>
               <p>
                 Email subsription is an opportunity to recevie an interting
@@ -483,7 +588,10 @@
     <footer class="footer">
   <div class="footer__wrapper _container">
     <div class="footer__columns">
-      <div class="footer__column">
+      <div class="footer__column"
+               data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
         <img src="img/logo.png" alt="food bill" />
         <p class="footer__social__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -533,13 +641,19 @@
           </a>
         </div>
       </div>
-      <div class="footer__column">
+      <div class="footer__column"
+               data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
         <h2 class="footer__column__header">Opening Restaurant</h2>
         <p class="footer__column__schedule">
           Sa - We: 09:00am - 10:00pm Thursday: 09:00am - 05:00pm Friday: Closed
         </p>
       </div>
-      <div class="footer__column">
+      <div class="footer__column"
+               data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
         <h2 class="footer__column__header">User Link</h2>
         <nav class="footer__nav">
           <ul>
@@ -551,7 +665,10 @@
           </ul>
         </nav>
       </div>
-      <div class="footer__column">
+      <div class="footer__column"
+               data-sal-duration="2000"
+        data-sal="slide-up"
+        data-sal-easing="ease-out-bounce">
         <h2 class="footer__column__header">Contact Us</h2>
         <address class="footer__address">
           543 Country Club Ave, NC 27587, London, UK +1259 6541120
@@ -581,40 +698,40 @@
   </div>
 </footer>
 
-    <!-- scripts -->
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script type="module">
-      import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script type="module">
+  import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
 
-      const swiper = new Swiper(".testimonials__slider", {
-        autoHeight: true,
-        autoplay: {
-          delay: 5000,
-        },
-        // speed: 400,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+  const swiper = new Swiper(".testimonials__slider", {
+    autoHeight: true,
+    autoplay: {
+      delay: 5000,
+    },
+    speed: 400,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
 
-        breakpoints: {
-          // when window width is >= 640px
-          640: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-            centeredSlides: true,
-          },
-        },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        centeredSlides: true,
+      },
+    },
+    spaceBetween: 100,
+  });
+</script>
+<script src="js/app.min.js"></script>
+<script src="sal/sal.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/loader.js"></script>
 
-        spaceBetween: 100,
-      });
-    </script>
-    <script src="js/app.min.js"></script>
   </body>
 </html>
